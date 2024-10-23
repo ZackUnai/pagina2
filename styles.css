@@ -1,0 +1,53 @@
+/* Estilos generales */
+body {
+    background-color: darkolivegreen;
+    font-family: Arial, sans-serif;
+    color: #f0f0f0; /* Color del texto */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para enlaces */
+a {
+    color: #add8e6; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+
+/* Estilo para el encabezado h1 */
+h1 {
+    color: darkgrey;
+    text-align: center;
+    margin: 20px 0; /* Espaciado arriba y abajo */
+}
+
+/* Estilo para la imagen */
+img {
+    max-width: 100%; /* Asegura que la imagen no sobrepase el contenedor */
+    height: auto; /* Mantiene la relación de aspecto */
+    display: block; /* Hace que la imagen sea un bloque */
+    margin: 0 auto; /* Centra la imagen */
+}
+
+/* Estilo para el párrafo */
+p {
+    font-size: 25px;
+    line-height: 1.6; /* Mejora la legibilidad */
+    text-align: center; /* Centra el texto */
+    margin: 20px; /* Espaciado alrededor del párrafo */
+}
+
+/* Estilo para el segundo h1 */
+h1:nth-of-type(2) {
+    background-color: olive; /* Color de fondo específico */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Centrar el contenido */
+.center {
+    text-align: center;
+}
